@@ -1,10 +1,15 @@
 # depslib dependency file v1.0
-1581768168 source:c:\matioli\ed\edtdd\funcoes.cpp
+1581770630 source:c:\matioli\ed\edtdd\funcoes.cpp
 	"funcoes.h"
 
-1581768194 c:\matioli\ed\edtdd\funcoes.h
+1581770630 c:\matioli\ed\edtdd\funcoes.h
 
-1581767566 source:c:\matioli\ed\edtdd\main.cpp
+1581770630 source:c:\matioli\ed\edtdd\main.cpp
+	"UnitTest++.h"
+	"funcoes.h"
+
+1581770630 source:c:\matioli\ed\edtdd\funcoestest.cpp
+	<iostream>
 	"UnitTest++.h"
 	"funcoes.h"
 
