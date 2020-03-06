@@ -6,8 +6,10 @@ using namespace std;
 
 int main()
 {
-
-
-  //return UnitTest::RunAllTests();
+/*
+    cout << "ex01(1,10,4) => " << ex01(1,10,4) << endl;
+    cout << "ex02(86) => " << ex02(32) << endl;
+*/
+  return UnitTest::RunAllTests();
   return 0;
 }

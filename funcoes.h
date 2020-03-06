@@ -21,9 +21,7 @@ float ex17(float p1, float p2, char p3);
 void ex18(float p1, int * p2, int * p3);
 float ex19(long p1, long p2);
 
-//testes
+//exemplo TDD
 int somaInt(int, int);
-float mediaVetorInt(int *v, int n);
-int maiorVetorInt(int *v, int n);
 
 #endif // FUNCOES_H_INCLUDED
