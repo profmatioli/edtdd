@@ -13,3 +13,13 @@
 	"UnitTest++.h"
 	"funcoes.h"
 
+1583451849 source:c:\users\matioli\desktop\edtdd\funcoes.cpp
+	"funcoes.h"
+
+1583453331 c:\users\matioli\desktop\edtdd\funcoes.h
+
+1583451849 source:c:\users\matioli\desktop\edtdd\funcoestest.cpp
+	<iostream>
+	"UnitTest++.h"
+	"funcoes.h"
+
