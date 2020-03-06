@@ -18,10 +18,12 @@ float ex14(float p1, char p2);
 int ex15(int p1);
 float ex16(int p1);
 float ex17(float p1, float p2, char p3);
-void ex18(float p1, int * p2, int * p3);
+void ex18(float p1, int * p2, float * p3);
 float ex19(long p1, long p2);
 
 //exemplo TDD
 int somaInt(int, int);
 
+//compara dois valores do tipo float
+bool cmpf(float A, float B);
 #endif // FUNCOES_H_INCLUDED
