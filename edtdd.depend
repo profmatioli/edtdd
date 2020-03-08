@@ -13,18 +13,18 @@
 	"UnitTest++.h"
 	"funcoes.h"
 
-1583516978 source:c:\users\matioli\desktop\edtdd\funcoes.cpp
+1583631741 source:c:\users\matioli\desktop\edtdd\funcoes.cpp
 	<math.h>
 	"funcoes.h"
 
-1583517147 c:\users\matioli\desktop\edtdd\funcoes.h
+1583631741 c:\users\matioli\desktop\edtdd\funcoes.h
 
-1583516923 source:c:\users\matioli\desktop\edtdd\funcoestest.cpp
+1583631741 source:c:\users\matioli\desktop\edtdd\funcoestest.cpp
 	<iostream>
 	"UnitTest++.h"
 	"funcoes.h"
 
-1583499802 source:c:\users\matioli\desktop\edtdd\main.cpp
+1583632114 source:c:\users\matioli\desktop\edtdd\main.cpp
 	<iostream>
 	"UnitTest++.h"
 	"funcoes.h"

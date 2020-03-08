@@ -4,11 +4,6 @@
 
 namespace std
 {
-    TEST(SomaIntTest)
-    {
-        const int Result = somaInt(1,1);
-        CHECK_EQUAL(2, Result);
-    }
 /*
     TEST(ex01)
     {
@@ -109,7 +104,10 @@ namespace std
         dias=ex19(100000,186400);
         CHECK_EQUAL(1,cmpf(1.0,dias));
     }
+    TEST(ex20)
+    {
+        const int result = ex20(2015);
+        CHECK_EQUAL(8,result);
+    }
 */
-
-
 }

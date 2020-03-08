@@ -1,43 +1,46 @@
 #include <math.h>
 #include "funcoes.h"
 
-//imolementação da função ex01
+//implementação da função ex01
 
-//imolementação da função ex02
+//implementação da função ex02
 
-//imolementação da função ex03
+//implementação da função ex03
 
-//imolementação da função ex04
+//implementação da função ex04
 
-//imolementação da função ex05
+//implementação da função ex05
 
-//imolementação da função ex06
+//implementação da função ex06
 
-//imolementação da função ex07
+//implementação da função ex07
 
-//imolementação da função ex08
+//implementação da função ex08
 
-//imolementação da função ex09
+//implementação da função ex09
 
-//imolementação da função ex10
+//implementação da função ex10
 
-//imolementação da função ex11
+//implementação da função ex11
 
-//imolementação da função ex12
+//implementação da função ex12
 
-//imolementação da função ex13
+//implementação da função ex13
 
-//imolementação da função ex14
+//implementação da função ex14
 
-//imolementação da função ex15
+//implementação da função ex15
 
-//imolementação da função ex16
+//implementação da função ex16
 
-//imolementação da função ex17
+//implementação da função ex17
 
-//imolementação da função ex18
+//implementação da função ex18
 
-//imolementação da função ex19
+//implementação da função ex19
+
+//implementação da função ex20
+
 
 
 //**********************************************************************
