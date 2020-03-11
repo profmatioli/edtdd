@@ -13,11 +13,13 @@ namespace std
     {
         CHECK_EQUAL(0, ex02(32));
     }
+*/
     TEST(ex03)
     {
         CHECK_EQUAL(1, ex03(7));
         CHECK_EQUAL(0, ex03(10));
     }
+/*
     TEST(ex04)
     {
         CHECK_EQUAL(75,ex04(10,15));
@@ -90,6 +92,7 @@ namespace std
        const float res4 = ex17(5,2,'-');
         CHECK_EQUAL(1,cmpf(3,res4));
     }
+*/
     TEST(ex18)
     {
         int p2=0;
@@ -98,6 +101,7 @@ namespace std
         CHECK_EQUAL(13,p2);
         CHECK_EQUAL(1,cmpf(0.33,p3));
     }
+/*
    TEST(ex19)
     {
         float dias=0.0;

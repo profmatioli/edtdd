@@ -7,6 +7,21 @@
 
 //implementação da função ex03
 
+int ex03(int a)
+{
+    int divs = 0;
+
+    // Verifica se é primo
+    for (int i = 1; i <= a; i++)
+    {
+        if (a % i == 0) divs++;
+    }
+
+    // Verifica o número de divisões
+    if (divs == 2) return 1;
+    else return 0;
+}
+
 //implementação da função ex04
 
 //implementação da função ex05
@@ -37,6 +52,10 @@
 
 //implementação da função ex18
 
+void ex18(float p1, int * p2, float * p3){
+    * p2 = p1;
+    * p3 = p1 - * p2;
+}
 //implementação da função ex19
 
 //implementação da função ex20
