@@ -13,21 +13,21 @@ namespace std
     {
         CHECK_EQUAL(0, ex02(32));
     }
-*/
     TEST(ex03)
     {
         CHECK_EQUAL(1, ex03(7));
         CHECK_EQUAL(0, ex03(10));
     }
-/*
     TEST(ex04)
     {
         CHECK_EQUAL(75,ex04(10,15));
     }
+    */
     TEST(ex05)
     {
         CHECK_EQUAL(7, ex05(49));
     }
+     /*
     TEST(ex06)
     {
         CHECK_EQUAL(7.8, ex06(7,9,6,4));
@@ -40,19 +40,23 @@ namespace std
     {
         CHECK_EQUAL(64,ex08(8,8));
     }
+    */
     TEST(ex09)
     {
         CHECK_EQUAL(1, ex09(8128));
     }
+    /*
     TEST(ex10)
     {
         CHECK_EQUAL(75, ex10(30,5000));
     }
+    */
     TEST (ex11)
     {
         const float result = ex11(5.25);
         CHECK_EQUAL(true, cmpf(86.5462,result));
     }
+     /*
     TEST(ex12)
     {
         const int prxPrimo = ex12(471);
@@ -70,12 +74,14 @@ namespace std
     {
         const float result = ex14(1.87,'M');
         CHECK_EQUAL(1,cmpf(77.949,result));
-    }
+    }*/
+
     TEST(ex15)
     {
         const int result = ex15(5);
         CHECK_EQUAL(1,result);
     }
+    /*
     TEST(ex16)
     {
         const float result = ex16(6);
@@ -92,7 +98,6 @@ namespace std
        const float res4 = ex17(5,2,'-');
         CHECK_EQUAL(1,cmpf(3,res4));
     }
-*/
     TEST(ex18)
     {
         int p2=0;
@@ -101,7 +106,6 @@ namespace std
         CHECK_EQUAL(13,p2);
         CHECK_EQUAL(1,cmpf(0.33,p3));
     }
-/*
    TEST(ex19)
     {
         float dias=0.0;
