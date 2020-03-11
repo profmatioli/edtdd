@@ -25,11 +25,12 @@ namespace std
     TEST(ex05)
     {
         CHECK_EQUAL(7, ex05(49));
-    }
+    }*/
     TEST(ex06)
     {
-        CHECK_EQUAL(7.8, ex06(7,9,6,4));
+        CHECK_EQUAL(1,cmpf(7.8, ex06(7,9,6,4)));
     }
+    /*
     TEST(ex07)
     {
         CHECK_EQUAL(3,ex07(6));
@@ -63,12 +64,13 @@ namespace std
         ex13(1,2,-15,&p4, &p5);
         CHECK_EQUAL(3,p4);
         CHECK_EQUAL(-5,p5);
-    }
+    }*/
     TEST(ex14)
     {
         const float result = ex14(1.87,'M');
         CHECK_EQUAL(1,cmpf(77.949,result));
     }
+    /*
     TEST(ex15)
     {
         const int result = ex15(5);
@@ -109,5 +111,5 @@ namespace std
         const int result = ex20(2015);
         CHECK_EQUAL(8,result);
     }
-*/
+    */
 }
