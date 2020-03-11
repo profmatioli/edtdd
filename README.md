@@ -1,3 +1,10 @@
+Nome do Grupo: Equipe 04
+Integrantes: Guilherme Narezzi	
+	     Enzo Cardoso
+	     Henrique Bassi
+	     Guilherme Caetano
+	     João Pedro Magri
+
 # Estruturas de Dados com TDD
 Estruturas de Dados com Testes Unitários usando UnitTestCPP
 

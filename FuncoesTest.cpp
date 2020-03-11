@@ -4,8 +4,8 @@
 
 namespace std
 {
-/*
-    TEST(ex01)
+
+    /*TEST(ex01)
     {
         CHECK_EQUAL(2, ex01(1,10,4));
     }
@@ -17,12 +17,12 @@ namespace std
     {
         CHECK_EQUAL(1, ex03(7));
         CHECK_EQUAL(0, ex03(10));
-    }
+    }*/
     TEST(ex04)
     {
         CHECK_EQUAL(75,ex04(10,15));
     }
-    TEST(ex05)
+    /*TEST(ex05)
     {
         CHECK_EQUAL(7, ex05(49));
     }
@@ -73,13 +73,14 @@ namespace std
     {
         const int result = ex15(5);
         CHECK_EQUAL(1,result);
-    }
+    }*/
+
     TEST(ex16)
     {
         const float result = ex16(6);
         CHECK_EQUAL(1,cmpf(2.4500,result));
     }
-    TEST(ex17)
+   /* TEST(ex17)
     {
         const float res1 = ex17(5,2,'/');
         CHECK_EQUAL(1,cmpf(2.5,res1));
@@ -108,6 +109,6 @@ namespace std
     {
         const int result = ex20(2015);
         CHECK_EQUAL(8,result);
-    }
-*/
+    }*/
+
 }
