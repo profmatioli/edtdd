@@ -29,3 +29,19 @@
 	"UnitTest++.h"
 	"funcoes.h"
 
+1583926756 source:c:\users\aluno\desktop\dojo\edtdd\funcoes.cpp
+	<math.h>
+	"funcoes.h"
+
+1583926756 c:\users\aluno\desktop\dojo\edtdd\funcoes.h
+
+1583926756 source:c:\users\aluno\desktop\dojo\edtdd\main.cpp
+	<iostream>
+	"UnitTest++.h"
+	"funcoes.h"
+
+1583928445 source:c:\users\aluno\desktop\dojo\edtdd\funcoestest.cpp
+	<iostream>
+	"UnitTest++.h"
+	"funcoes.h"
+

@@ -2,7 +2,16 @@
 #include "funcoes.h"
 
 //implementação da função ex01
-
+    int ex01(int a, int b, int c){
+    int i;
+    int res;
+        for(i=0;a<=b;i++){
+            if(a%c==0){
+            res+=1;
+            }
+        }
+        return res;
+        CHECK_EQUAL(2, ex01(1,10,4));}
 //implementação da função ex02
 
 //implementação da função ex03
@@ -40,6 +49,17 @@
 //implementação da função ex19
 
 //implementação da função ex20
+    int ex01(int a){
+        int b,c,i;
+        for(i)
+            b=a%10;
+            c=b;
+        }
+        CHECK_EQUAL(8,result);
+
+
+    }
+
 
 
 

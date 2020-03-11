@@ -4,11 +4,16 @@
 
 namespace std
 {
-/*
-    TEST(ex01)
+
+    /*TEST(ex01)
     {
-        CHECK_EQUAL(2, ex01(1,10,4));
+CHECK_EQUAL(2, ex01(1,10,4));
+
+
+
+
     }
+    /*
     TEST(ex02)
     {
         CHECK_EQUAL(0, ex02(32));
@@ -103,11 +108,11 @@ namespace std
         float dias=0.0;
         dias=ex19(100000,186400);
         CHECK_EQUAL(1,cmpf(1.0,dias));
-    }
+    }*/
     TEST(ex20)
     {
         const int result = ex20(2015);
         CHECK_EQUAL(8,result);
     }
-*/
+
 }
