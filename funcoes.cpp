@@ -1,64 +1,86 @@
 #include <math.h>
 #include "funcoes.h"
 
-//implementaÁ„o da funÁ„o ex01
+//implementa√ß√£o da fun√ß√£o ex01
 
-//implementaÁ„o da funÁ„o ex02
+//implementa√ß√£o da fun√ß√£o ex02
 
-//implementaÁ„o da funÁ„o ex03
+//implementa√ß√£o da fun√ß√£o ex03
 
-int ex03(int a)
-{
-    int divs = 0;
+//implementa√ß√£o da fun√ß√£o ex04
 
-    // Verifica se È primo
-    for (int i = 1; i <= a; i++)
-    {
-        if (a % i == 0) divs++;
+//implementa√ß√£o da fun√ß√£o ex05!
+float ex05(int a){
+    int soma=0;
+    int i=1;
+    int b = 0;
+    do{
+
+        soma++;
+        b += i;
+        i+=2;
+    }while(b!=a);
+    return soma;
+
+}
+
+//implementa√ß√£o da fun√ß√£o ex06
+
+//implementa√ß√£o da fun√ß√£o ex07
+
+//implementa√ß√£o da fun√ß√£o ex08
+
+//implementa√ß√£o da fun√ß√£o ex09
+int ex09(int a){
+    int div =0;
+    for(int i=1;i<a;i++){
+        if(a%i==0){
+            div+=i;
+        }
     }
-
-    // Verifica o n˙mero de divisıes
-    if (divs == 2) return 1;
+    if(div == a){
+        return 1;
+    }
     else return 0;
+
 }
 
-//implementaÁ„o da funÁ„o ex04
 
-//implementaÁ„o da funÁ„o ex05
+//implementa√ß√£o da fun√ß√£o ex10
 
-//implementaÁ„o da funÁ„o ex06
-
-//implementaÁ„o da funÁ„o ex07
-
-//implementaÁ„o da funÁ„o ex08
-
-//implementaÁ„o da funÁ„o ex09
-
-//implementaÁ„o da funÁ„o ex10
-
-//implementaÁ„o da funÁ„o ex11
-
-//implementaÁ„o da funÁ„o ex12
-
-//implementaÁ„o da funÁ„o ex13
-
-//implementaÁ„o da funÁ„o ex14
-
-//implementaÁ„o da funÁ„o ex15
-
-//implementaÁ„o da funÁ„o ex16
-
-//implementaÁ„o da funÁ„o ex17
-
-//implementaÁ„o da funÁ„o ex18
-
-void ex18(float p1, int * p2, float * p3){
-    * p2 = p1;
-    * p3 = p1 - * p2;
+//implementa√ß√£o da fun√ß√£o ex11
+float ex11(float r){
+    float a = 0;
+    a= (r*r)*3.14;
+    return a;
 }
-//implementaÁ„o da funÁ„o ex19
+//implementa√ß√£o da fun√ß√£o ex12
 
-//implementaÁ„o da funÁ„o ex20
+//implementa√ß√£o da fun√ß√£o ex13
+
+//implementa√ß√£o da fun√ß√£o ex14
+
+//implementa√ß√£o da fun√ß√£o ex15
+int ex15(int c){
+    int f=0;
+    if (c%2==0){
+        f=0;
+    }
+    else{
+        f=1;
+    }
+    return f;
+}
+
+//implementa√ß√£o da fun√ß√£o ex16
+
+//implementa√ß√£o da fun√ß√£o ex17
+
+//implementa√ß√£o da fun√ß√£o ex18
+
+//implementa√ß√£o da fun√ß√£o ex19
+
+//implementa√ß√£o da fun√ß√£o ex20
 
 
 
