@@ -30,10 +30,10 @@ namespace std
     {
         CHECK_EQUAL(7.8, ex06(7,9,6,4));
     }
-    TEST(ex07)
+*/    TEST(ex07)
     {
         CHECK_EQUAL(3,ex07(6));
-    }
+    }/*
     TEST(ex08)
     {
         CHECK_EQUAL(64,ex08(8,8));
@@ -56,6 +56,7 @@ namespace std
         const int prxPrimo = ex12(471);
         CHECK_EQUAL(479,prxPrimo);
     }
+    */
     TEST(ex13)
     {
         float p4, p5;
@@ -64,7 +65,7 @@ namespace std
         CHECK_EQUAL(3,p4);
         CHECK_EQUAL(-5,p5);
     }
-    TEST(ex14)
+/*   TEST(ex14)
     {
         const float result = ex14(1.87,'M');
         CHECK_EQUAL(1,cmpf(77.949,result));
